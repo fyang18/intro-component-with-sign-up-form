@@ -109,6 +109,10 @@ body {
     letter-spacing: 2px;
 }
 
+.form input[type=submit]:focus{
+    border-color: none;
+}
+
 #firstName, #lastName, #email, #password {
     background-image: url(images/icon-error.svg);
     background-repeat: no-repeat;
@@ -175,9 +179,5 @@ body {
 
     .form input:focus {
         border-color: #605982;
-    }
-
-    #password:focus {
-        border-color: none;
     }
 }
