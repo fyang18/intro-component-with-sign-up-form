@@ -176,4 +176,8 @@ body {
     .form input:focus {
         border-color: #605982;
     }
+
+    #password:focus {
+        border-color: none;
+    }
 }
