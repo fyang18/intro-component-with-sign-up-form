@@ -89,10 +89,6 @@ body {
     font-weight: 600;
 }
 
-.form input:focus {
-    border-color: #605982;
-}
-
 #submit, #password, #email, #lastName{
     margin-top: 24px;
 }
@@ -109,9 +105,6 @@ body {
     letter-spacing: 2px;
 }
 
-.form input[type=submit]:focus{
-    border-color: none;
-}
 
 #firstName, #lastName, #email, #password {
     background-image: url(images/icon-error.svg);
@@ -175,9 +168,5 @@ body {
 
     .formArea {
         width: 50%;
-    }
-
-    .form input:focus {
-        border-color: #605982;
     }
 }
